@@ -34,7 +34,7 @@ const FourthPage = () => {
               {card1Clicked ? (
                 <>
                   <img
-                    src="/images/cat1.jpg"
+                    src="/images/cat1.webp"
                     alt=""
                     style={{ width: "100px" }}
                   />
@@ -46,7 +46,7 @@ const FourthPage = () => {
                 <img
                   className="balloon-img"
                   style={{ width: "100px" }}
-                  src="/images/bunch-of-3-balloons.jpg"
+                  src="/images/bunch-of-3-balloons.webp"
                   alt=""
                 />
               )}
@@ -62,7 +62,7 @@ const FourthPage = () => {
               {card2Clicked ? (
                 <>
                   <img
-                    src="/images/cat2.jpg"
+                    src="/images/cat2.webp"
                     alt=""
                     style={{ width: "100px", height: "100px" }}
                   />
@@ -74,7 +74,7 @@ const FourthPage = () => {
                 <img
                   className="balloon-img"
                   style={{ width: "100px" }}
-                  src="/images/bunch-of-3-balloons.jpg"
+                  src="/images/bunch-of-3-balloons.webp"
                   alt=""
                 />
               )}
@@ -90,7 +90,7 @@ const FourthPage = () => {
               {card3Clicked ? (
                 <>
                   <img
-                    src="/images/cat3.jpg"
+                    src="/images/cat3.webp"
                     alt=""
                     style={{ width: "100px", height: "100px" }}
                   />
@@ -102,7 +102,7 @@ const FourthPage = () => {
                 <img
                   className="balloon-img"
                   style={{ width: "100px" }}
-                  src="/images/bunch-of-3-balloons.jpg"
+                  src="/images/bunch-of-3-balloons.webp"
                   alt=""
                 />
               )}
@@ -118,7 +118,7 @@ const FourthPage = () => {
               {card4Clicked ? (
                 <>
                   <img
-                    src="/images/cat4.jpeg"
+                    src="/images/cat4.webp"
                     alt=""
                     style={{ width: "100px", height: "100px" }}
                   />
@@ -130,7 +130,7 @@ const FourthPage = () => {
                 <img
                   className="balloon-img"
                   style={{ width: "100px" }}
-                  src="/images/bunch-of-3-balloons.jpg"
+                  src="/images/bunch-of-3-balloons.webp"
                   alt=""
                 />
               )}

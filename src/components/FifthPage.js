@@ -12,7 +12,7 @@ const FifthPage = () => {
     <div className="d-flex flex-column align-items-center justify-content-center">
       {isClicked ? (
         <div className="d-flex flex-column align-items-center">
-          <img className="balloon-img" src="/images/catt.png" alt="" />
+          <img className="balloon-img" src="/images/catt.webp" alt="" />
           <p className="text-white text-center mt-3 fs-4">
             Awww! You've got a bunch of balloons
           </p>
@@ -20,8 +20,8 @@ const FifthPage = () => {
             Special Msg
           </Link>
           <div className="balloons-container mx-2">
-            <img className="balloons-l" src="/images/balloons.png" alt="" />
-            <img className="balloons-r" src="/images/balloons.png" alt="" />
+            <img className="balloons-l" src="/images/balloons.webp" alt="" />
+            <img className="balloons-r" src="/images/balloons.webp" alt="" />
           </div>
         </div>
       ) : (
@@ -32,7 +32,7 @@ const FifthPage = () => {
             onClick={() => {
               setIsClicked(!isClicked);
             }}
-            src="/images/gift.png"
+            src="/images/gift.webp"
             alt="Gift Box"
           />
         </>
