@@ -1,0 +1,50 @@
+.gift-box {
+  width: 30vw;
+  background: transparent;
+  transition: transform 0.5s ease-in-out;
+  animation: pop-up 2s infinite;
+}
+.balloon-img {
+  width: 30vw;
+  background: transparent;
+}
+.balloons-container {
+  position: fixed;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+@keyframes floatUp {
+  0% {
+    transform: translateY(100vh) scale(1);
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-150vh) scale(1.2);
+    opacity: 0;
+  }
+}
+.balloons-l,
+.balloons-r {
+  width: 20vw;
+  animation: floatUp 10s ease-in-out forwards;
+  animation-delay: 0s;
+}
+@keyframes pop-up {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
